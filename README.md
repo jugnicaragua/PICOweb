@@ -1,37 +1,71 @@
-## Welcome to GitHub Pages
+# PICO web (PICO + VAADIN 8) 
+Un Sistema Contable básico para MicroEmpresas Nicaragüenses. Didáctico y Colaborativo. Creado como aplicacion WEB.
 
-You can use the [editor on GitHub](https://github.com/jugnicaragua/PICOweb/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[![Build Status](https://travis-ci.org/jug-ni/PICO.svg?branch=master)](https://travis-ci.org/jug-ni/PICO)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Objetivo
+* Ser Didáctico para los que pretenden aprender Java utilizando las mejores prácticas.
+* Ser una solución para MicroEmpresas que necesitan llevar contabilidad.
+* Ser un reductor de la cantidad de proyectos de graduación en centros técnicos y universidades enfocados en Contabilidad.
 
-### Markdown
+# Características Funcionales
+* Didáctico
+  - Totalmente comentado.
+* Sencillo
+* Intuitivo
+* Portable
+* mono empresa
+* Reportes contables
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Características Técnicas.
+* Wen para correr en APACHE  Tomcat
+* Portable
+* Base de datos Empotrada
+* Reportes integrados
+* Ejecutable desde un Flash Drive
+* Windows, Linux, BSD and MAC
+* Totalmente comentado y Documentado
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+# Stack
 ```
+  Conjunto de Tecnologías utilizadas
+```
+* Base: JVM OpenJDK (AdoptOpenJDK) Version 11 LTS
+* Manejador: maven
+* Base de Datos: Empotrada SQLITE  y HSQLDB
+* JPA (Persistencia)
+* ORM: Hibernate
+* VAADIN ( https://vaadin.com/ )
+* Reportes: JasperReport
+* MVC (Modelo Vista Controlador) 
+* POO
+* Multi IDE (Project Maven)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Estilo de Código:
+Para el estilo de codificación, usaremos el estilo creado por Google:
+https://google.github.io/styleguide/javaguide.html
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jugnicaragua/PICOweb/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+# Preparando  el IDE
+...
 
-### Support or Contact
+# Diseño
+  TDR <enlace a la página de los TDR>
+  UML <Enlace a los diagramas de Caso de USO>
+  UI <enlace a las interfaces>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Como colaborar.
+Sus colaboraciones hacerlas siempre con un PULL REQUEST a la rama/branch Developer.
+
+
+# Licencia
+Copyright (c) 2019 Grupo de Usuarios Java de Nicaragua.
+
+Pico Accounting is free libre open source software (FLOSS), licensed under the GNU General Public License version 3 (GPLv3), see the COPYING file or a copy at: https://www.gnu.org/licenses/gpl.txt
+
+
+# Autores y Colaboradores
+JUG Nicaragua, Grupo de Usuarios Java de Nicaragua.
+https://javanicaragua.org/nuestro-equipo/
+
