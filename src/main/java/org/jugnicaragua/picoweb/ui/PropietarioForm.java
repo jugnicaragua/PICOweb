@@ -1,6 +1,5 @@
 package org.jugnicaragua.picoweb.ui;
 
-import org.jugnicaragua.picoweb.backend.modelo.Propietario;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.ComponentEvent;
 import com.vaadin.flow.component.ComponentEventListener;
@@ -11,10 +10,10 @@ import com.vaadin.flow.component.formlayout.FormLayout;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.textfield.EmailField;
 import com.vaadin.flow.component.textfield.TextField;
-import com.vaadin.flow.data.binder.BeanValidationBinder;
 import com.vaadin.flow.data.binder.Binder;
 import com.vaadin.flow.data.binder.ValidationException;
 import com.vaadin.flow.shared.Registration;
+import org.jugnicaragua.picoweb.backend.modelo.Propietario;
 
 public class PropietarioForm extends FormLayout {
 
@@ -26,7 +25,7 @@ public class PropietarioForm extends FormLayout {
     Button delete = new Button("Eliminar");
     Button close = new Button("Cancelar");
 
-    Binder<Propietario> binder = new BeanValidationBinder<>(Propietario.class);
+    Binder<Propietario> binder = new Binder<>(Propietario.class);
     private Propietario propietario;
 
     public PropietarioForm() {
